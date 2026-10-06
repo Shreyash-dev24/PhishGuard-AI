@@ -1,0 +1,42 @@
+{
+    "dataset": {
+        "test_samples": 11524,
+        "features": 27,
+        "positive_class": "potentially_phishing",
+        "negative_class": "legitimate"
+    },
+    "random_forest": {
+        "accuracy": 0.932575,
+        "precision": 0.706268,
+        "recall": 0.910187,
+        "f1": 0.795365,
+        "roc_auc": 0.978444,
+        "confusion_matrix": [
+            [
+                9237,
+                628
+            ],
+            [
+                149,
+                1510
+            ]
+        ]
+    },
+    "ann": {
+        "accuracy": 0.917303,
+        "precision": 0.649197,
+        "recall": 0.925859,
+        "f1": 0.76323,
+        "roc_auc": 0.980969,
+        "confusion_matrix": [
+            [
+                9035,
+                830
+            ],
+            [
+                123,
+                1536
+            ]
+        ]
+    }
+}
