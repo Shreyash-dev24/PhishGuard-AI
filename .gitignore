@@ -33,3 +33,4 @@ frontend/dist/
 # OS
 .DS_Store
 Thumbs.dbmodels/random_forest.joblib
+ml/data/raw/url_phish.csv
